@@ -54,7 +54,7 @@
     margin-top: -97px;
     margin-left: -20px;
 }
-.servise {
+.serve {
     background:url(../images/servise.png) no-repeat;
     width:333px;
     height: 370px;
@@ -93,10 +93,67 @@
     background:url(../images/point-2.png) right  no-repeat;
     background-position: 170px 10px;
 }
-.aside_left ul li.active{background:url(../images/point.png) right  no-repeat;background-position: 170px 10px;}
+.aside_left ul li.active {background:url(../images/point.png) right  no-repeat;background-position: 170px 10px;}
+.aside_left ul li:hover {background:url(../images/point.png) right  no-repeat;background-position: 170px 10px;}
 .aside_left ul li a {
+    width:160px;
     display: block;
     height:30px;
     line-height: 30px;
     color: #ffffff;
+    text-align: right;
+}
+.aside_right>div{
+    width:150px;
+    height:280px;
+    text-align: center;
+    margin: 50px auto;
+}
+.aside_right>div>h1{font-size: 20px;}
+.aside_right p {width:150px;height: 32px;border:1px solid black;border-radius: 8px;padding-top: 5px;
+    margin: 15px auto;}
+.news h2 {font-size: 18px;margin-left:20px;margin-top: 5px}
+.news p{margin-left:20px;}
+
+.serve_title {margin-left:20px;}
+.serve_title i{display: inline-block;
+    width: 20px;height: 50px;
+    background:url(../images/point.png) no-repeat;
+    background-position: 10px  15px;
+}
+.serve_title p{
+    display: inline-block;
+    width:100px;
+    height:50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.serve_title p span{
+    display: block;
+    color: #67D0A7;
+
+}
+.text-big {font-size: 18px}
+.serve_content {
+    margin-left:30px;
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+
+}
+.serve_content li {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.serve_content li p{
+    width:40px;
+    height:40px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.serve_content li span {
+    color: white;
 }
