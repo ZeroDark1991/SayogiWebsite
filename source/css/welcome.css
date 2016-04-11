@@ -10,8 +10,15 @@
 .nav_right {float:right;width:120px;height:40px;margin-top: 20px;}
 .nav_right img {float:right;width:41px;height:35px;margin:5px;}
 
-.container_content {background:url(../images/light-1.png) no-repeat;background-size:cover;
+.container_content {background:url(../images/light-1.png) no-repeat;background-size:cover;background-position-y:14px ;
     width:1745px;
     height:478px;
     margin-left: -180px;
+    z-index: -99;
+}
+.banner {background:url(../images/bigbanner.png) no-repeat;
+    width:996px;
+    height:418px;
+    margin-left:450px;
+
 }
