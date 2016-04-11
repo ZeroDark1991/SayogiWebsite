@@ -1,0 +1,17 @@
+@charset "utf-8";
+.welcome .container {width:100%;background:url(../images/background.png) no-repeat;background-size:cover;}
+.nav {border:1px solid transparent;}
+.nav_left {float:left;
+    width:101px;height:133px;
+    background:url(../images/nav.png) no-repeat;background-size:cover;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.nav_right {float:right;width:120px;height:40px;margin-top: 20px;}
+.nav_right img {float:right;width:41px;height:35px;margin:5px;}
+
+.container_content {background:url(../images/light-1.png) no-repeat;background-size:cover;
+    width:1745px;
+    height:478px;
+    margin-left: -180px;
+}
