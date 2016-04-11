@@ -136,7 +136,7 @@
 }
 .text-big {font-size: 18px}
 .serve_content {
-    margin-left:30px;
+    margin-left:20px;
     margin-top: 20px;
     width: 300px;
     height: 200px;
@@ -149,11 +149,28 @@
     margin: 5px;
 }
 .serve_content li p{
+    margin: 0 auto ;
     width:40px;
     height:40px;
-    border: 2px solid white;
+    border: 2px solid #888989;
     border-radius: 40px;
+    background:url(../images/wash.png) no-repeat;
+    background-position: 12px  12px;
 }
 .serve_content li span {
+    display: block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
     color: white;
+}
+.serve_content li:last-child span {
+    width: 70px;
+}
+.serve_more {
+    margin-left: 230px;
+}
+.serve_more a{
+    color: #67D0A7;
 }
