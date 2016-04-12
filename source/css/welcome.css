@@ -27,6 +27,7 @@
     z-index: 0;
     margin-left: -51px;
     margin-top: -1px;
+    position: relative;
 }
 .aside_left{
     float: left;
@@ -46,13 +47,14 @@
     margin-right: -166px;
 }
 .news {
+    position: relative;
     background:url(../images/news.png) no-repeat;
     width: 719px;
     height: 55px;
     z-index: 50;
     float: left;
-    margin-top: -97px;
-    margin-left: -20px;
+    margin-top: -93px;
+    margin-left: -15px;
 }
 .serve {
     background:url(../images/servise.png) no-repeat;
@@ -60,7 +62,7 @@
     height: 370px;
     z-index: 50;
     float: left;
-    margin-top: -42px;
+    margin-top: -38px;
     margin-left: -30px;
     position: relative;
 }
@@ -173,4 +175,66 @@
 }
 .serve_more a{
     color: #67D0A7;
+}
+.baidu_map{
+    width: 482px;
+    height: 326px;
+    background:url(../images/map.png) no-repeat;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.map_search {
+    width:200px;
+    height: 300px;
+    float: right;
+    margin-top: -300px;
+    padding-left: 30px;
+}
+.map_search ul li {
+    width: 100px;
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0;
+    border: 1px solid #67D0A7;
+    border-radius: 6px;
+}
+.map_search ul li:last-child {
+    color: #000;
+    background-color: #67D0A7 ;
+}
+.banner_img {
+    width: 945px;
+    height: 390px;
+    margin-left: 35px;
+    margin-top: 10px;
+    z-index: 1;
+}
+.banner_img img{
+    display: block;
+    width: 940px;
+    height: 365px;
+    position: absolute;
+    opacity: 1;
+    top: 15px;
+    border-radius: 0 40px 0 0;
+}
+.banner_icon {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    right: 30px;
+}
+.banner_icon li {
+    color: white;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #67D0A7;
+    border-radius: 4px;
+}
+.banner_icon li:hover{background-color: #67D0A7;
+    cursor: pointer;}
+.icon_active {
+    background-color: #67D0A7;
 }
