@@ -7,6 +7,8 @@
     border-radius: 20px;
     color: #fff;
     border: 1px solid transparent;
+    position: relative;
+    z-index: 2;
 }
 .main{
     margin:40px 60px;

@@ -1,0 +1,22 @@
+.content{
+    width:1200px;
+    min-height:1000px;
+    background-color: #3B3B3B;
+    margin-left: 140px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 2;
+}
+.main{
+    margin:40px 0 0 60px;
+    position: relative;
+}
+.main h2{
+    font-size: 18px;
+}
+.recruit{
+    margin:80px;
+}
