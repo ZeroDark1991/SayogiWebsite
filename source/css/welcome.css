@@ -179,7 +179,7 @@
 .baidu_map{
     width: 482px;
     height: 326px;
-    background:url(../images/map.png) no-repeat;
+    /*background:url(../images/map.png) no-repeat;*/
     margin-top: 30px;
     margin-left: 60px;
 }
@@ -192,6 +192,8 @@
 }
 .map_search ul li {
     width: 100px;
+    height:30px;
+    line-height: 30px;
     text-align: center;
     color: #ffffff;
     margin: 20px 0;

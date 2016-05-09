@@ -39,8 +39,25 @@ $(window).ready(function(){
         clearInterval(t);
     });
         $("#banner_img").on("mouseout",function() {
-            t=setInterval(lunbo,1500);
+            t=setInterval(lunbo,2000);
         });
 
-    }
-);
+
+
+        //µØÍ¼
+        var map = new AMap.Map('baidu_map');
+         map.setZoom(10);
+         map.setCenter([120.17,30.28]);
+    var marker = new AMap.Marker({
+        position: [120.17, 30.28],
+        map:map
+    });
+
+
+
+
+
+
+
+
+});
