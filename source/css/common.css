@@ -19,5 +19,6 @@ html {overflow-y: scroll;}
 .clear {clear:both;}
 a:hover{text-decoration: none;cursor: pointer }
 input,button,select,textarea{outline:none}
-input[type="text"] {border:none;width:120px;height: 20px;}
-input[type="button"] {width:150px;height: 32px;border:1px solid transparent;border-radius: 8px;color: white;background-color: #5B5B5B}
+input[type="text"] {border:none;width:80px;height: 20px;background-color: #424242}
+input[type="button"] {border:none;width:80px;height: 20px;background-color: #424242}
+input[type="submit"] {width:90px;height: 32px;border:1px solid transparent;border-radius: 8px;color: white;background-color: #5B5B5B}

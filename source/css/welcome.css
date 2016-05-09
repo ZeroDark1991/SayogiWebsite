@@ -1,11 +1,12 @@
 @charset "utf-8";
-.welcome .container {width:100%;background:url(../images/background.png) no-repeat;z-index: -99;background-size:cover }
+/*.welcome .container {width:100%;background:url(../images/background.png) no-repeat;z-index: -99;background-size:cover ;*/
+/*}*/
 .nav {border:1px solid transparent;
     }
 .nav_left {float:left;
     width:101px;height:133px;
     background:url(../images/nav.png) no-repeat;
-    margin-left: 100px;
+
     margin-bottom: 20px;
 }
 .nav_right {float:right;width:120px;height:40px;margin-top: 20px;}
@@ -13,30 +14,34 @@
 
 .container_content {
 
-    background:url(../images/light-1.png) center top no-repeat;background-position-y:14px ;
-    height:478px;
+    /*background:url(../images/light-1.png) center top no-repeat;background-position-y:14px ;background-position-x:-10px;*/
+    /*height:478px;*/
 }
-.regular {width:1200px;border:1px solid transparent;
-    margin: 0 auto;}
+/*.regular {width:1200px;border:1px solid transparent;*/
+    /*margin: 0 auto;}*/
 
 .banner {
     float: left;
-    background:url(../images/bigbanner.png) no-repeat;
-    width:996px;
+    /*background:url(../images/bigbanner.png) no-repeat;*/
+    width:1200px;
     height:418px;
     z-index: 0;
-    margin-left: -51px;
-    margin-top: -1px;
+    margin-left: 10px;
+    margin-top: 20px;
     position: relative;
 }
-.aside_left{
-    float: left;
-    background:url(../images/meun.png) no-repeat;
-    width: 235px;
-    height: 469px;
-    margin-top:50px;
-    margin-left: -50px;
-}
+/*.aside_left{*/
+    /*position: absolute;*/
+    /*/!*background:url(../images/meun.png) no-repeat;*!/*/
+    /*width: 200px;*/
+    /*height: 650px;*/
+    /*margin-top:130px;*/
+    /*margin-left: -50px;*/
+   /*background-color: #424242;*/
+    /*border-radius:20px 20px 0 20px ;*/
+    /*z-index: 1;*/
+
+/*}*/
 .aside_right{
     background:url(../images/register-1.png) no-repeat;
     width: 279px;
@@ -54,66 +59,69 @@
     z-index: 50;
     float: left;
     margin-top: -93px;
-    margin-left: -15px;
+    margin-left: 150px;
 }
 .serve {
     background:url(../images/servise.png) no-repeat;
     width:333px;
     height: 370px;
-    z-index: 50;
-    float: left;
-    margin-top: -38px;
-    margin-left: -30px;
-    position: relative;
-}
-.map {
-    background:url(../images/map-background.png) no-repeat;
-    width:756px;
-    height: 451px;
+    z-index: 70;
     float: right;
-    margin-top: -370px;
-    margin-right: 64px;
-    z-index: -9;
-}
-.foot{
-    width:100%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top:400px;
+    margin-top: -488px;
+    margin-right: -20px;
+    /*margin-left: -130px;*/
+    position: relative;
 
 }
-.foot div {
-    text-align: center;
+.map {
+    /*background:url(../images/map-background.png) no-repeat;*/
+    width:900px;
+    height: 500px;
+    float: left;
+    /*margin-top: -370px;*/
+   margin-left: 150px;
+    margin-top: -50px;
+    z-index: 0;
+    background-color: #353535;
+    border-radius:0 0 20px 20px;
+
 }
-.share img {margin:15px;}
-.aside_left ul {margin-top: 50px;}
-.aside_left ul li{
-    text-align: center;
-    margin-top: 15px;
-    height: 30px;
-    line-height: 30px;
-    background:url(../images/point-2.png) right  no-repeat;
-    background-position: 170px 10px;
-}
-.aside_left ul li.active {background:url(../images/point.png) right  no-repeat;background-position: 170px 10px;}
-.aside_left ul li:hover {background:url(../images/point.png) right  no-repeat;background-position: 170px 10px;}
-.aside_left ul li a {
-    width:160px;
-    display: block;
-    height:30px;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: right;
-}
+
+/*.share img {margin:15px;}*/
+/*.aside_left ul {margin-top: 50px;}*/
+/*.aside_left ul li{*/
+    /*text-align: center;*/
+    /*margin-top: 15px;*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*background:url(../images/point-2.png) right  no-repeat;*/
+    /*background-position: 170px 10px;*/
+/*}*/
+/*.aside_left ul li.active {background:url(../images/point.png) right  no-repeat;background-position: 170px 10px;}*/
+/*.aside_left ul li:hover {background:url(../images/point.png) right  no-repeat;background-position: 170px 10px;}*/
+/*.aside_left ul li a {*/
+    /*width:160px;*/
+    /*display: block;*/
+    /*height:30px;*/
+    /*line-height: 30px;*/
+    /*color: #ffffff;*/
+    /*text-align: right;*/
+/*}*/
 .aside_right>div{
     width:150px;
     height:280px;
     text-align: center;
     margin: 50px auto;
 }
-.aside_right>div>h1{font-size: 20px;}
-.aside_right p {width:150px;height: 32px;border:1px solid black;border-radius: 8px;padding-top: 5px;
-    margin: 15px auto;}
+/*.login{margin-top: 30px;margin-left: 30px;}*/
+/*.login>h1{font-size: 18px;color: #ffffff;text-align: center }*/
+/*.login p {width:90px;height: 32px;border:1px solid #fff;border-radius: 8px;padding-top: 5px;*/
+    /*margin: 15px auto;font-size: 16px;}*/
+
+/*.color::-webkit-input-placeholder{color: #fff;text-align: center}*/
+/*.color::-moz-placeholder{color: #fff;text-align: center}*/
+/*.value {color:#67D0A7}*/
+/*.login input[type="submit"]{margin-left:40px;}*/
 .news h2 {font-size: 18px;margin-left:20px;margin-top: 5px}
 .news p{margin-left:20px;}
 
@@ -155,7 +163,7 @@
     width:40px;
     height:40px;
     border: 2px solid #888989;
-    border-radius: 40px;
+    border-radius: 20px;
     background:url(../images/wash.png) no-repeat;
     background-position: 12px  12px;
 }
@@ -177,18 +185,19 @@
     color: #67D0A7;
 }
 .baidu_map{
-    width: 482px;
-    height: 326px;
+    width: 560px;
+    height: 420px;
     /*background:url(../images/map.png) no-repeat;*/
     margin-top: 30px;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 .map_search {
-    width:200px;
+    width:180px;
     height: 300px;
     float: right;
-    margin-top: -300px;
-    padding-left: 30px;
+    margin-top: -400px;
+    margin-right: 100px;
+    /*padding-left: -30px;*/
 }
 .map_search ul li {
     width: 100px;
@@ -205,7 +214,7 @@
     background-color: #67D0A7 ;
 }
 .banner_img {
-    width: 945px;
+    width: 1200px;
     height: 390px;
     margin-left: 35px;
     margin-top: 10px;
@@ -213,12 +222,12 @@
 }
 .banner_img img{
     display: block;
-    width: 940px;
+    width: 1200px;
     height: 365px;
     position: absolute;
     opacity: 1;
     top: 15px;
-    border-radius: 0 40px 0 0;
+    border-radius: 20px 20px 20px 0;
 }
 .banner_icon {
     display: block;
@@ -240,3 +249,5 @@
 .icon_active {
     background-color: #67D0A7;
 }
+.input{padding-left:4px;}
+.share{margin-top:50px; }

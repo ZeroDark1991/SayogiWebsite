@@ -1,3 +1,63 @@
-.container {width:100%;min-height:1200px;}
+.container {width:100%;background:url(../images/background.png) no-repeat;z-index: -99;background-size:cover ;
+    min-height:1280px;
+    min-width: 1600px;
+    padding-bottom: 100px;
+}
+
 .header {width:1500px;margin:0 auto;height:0;}
 .container_wrapper {margin:0 auto;}
+.regular {width:1200px;border:1px solid transparent;
+    margin: 0 auto;}
+.aside_left{
+    position: absolute;
+    /*background:url(../images/meun.png) no-repeat;*/
+    width: 200px;
+    height: 650px;
+    margin-top:130px;
+    margin-left: -50px;
+    background-color: #424242;
+    border-radius:20px 20px 0 20px ;
+    z-index: 1;
+
+}
+.aside_left ul {margin-top: 50px;}
+.aside_left ul li{
+    text-align: center;
+    margin-top: 15px;
+    height: 30px;
+    line-height: 30px;
+    background:url(../images/point-2.png) right  no-repeat;
+    background-position: 170px 10px;
+}
+.aside_left ul li.active {background:url(../images/point.png) right  no-repeat;background-position: 170px 10px;}
+.aside_left ul li:hover {background:url(../images/point.png) right  no-repeat;background-position: 170px 10px;}
+.aside_left ul li a {
+    width:160px;
+    display: block;
+    height:30px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: right;
+}
+.login{margin-top: 30px;margin-left: 30px;}
+.login>h1{font-size: 18px;color: #ffffff;text-align: center }
+.login p {width:90px;height: 32px;border:1px solid #fff;border-radius: 8px;padding-top: 5px;
+    margin: 15px auto;font-size: 16px;}
+
+.color::-webkit-input-placeholder{color: #fff;text-align: center}
+.color::-moz-placeholder{color: #fff;text-align: center}
+.value {color:#67D0A7}
+.login input[type="submit"]{margin-left:40px;}
+.foot{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    /*margin-top:-400px;*/
+    padding-top: 150px;
+    /*margin-bottom: 100px;*/
+}
+.foot div {
+    color:#fff;
+    text-align: center;
+}
+.share img {margin:15px;}

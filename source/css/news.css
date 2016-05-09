@@ -1,0 +1,55 @@
+.content{
+    width:1200px;
+    /*height:900px;*/
+    background-color: #3B3B3B;
+    margin-left: 140px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.main{
+    margin:40px 60px;
+    position: relative;
+}
+.main h2{
+font-size: 18px;
+}
+.picture{float: left;
+    margin: 20px;
+    z-index: 1;
+    position: relative;
+}
+.picture img{
+    width:130px;
+    height: 130px;
+}
+.introduce{float: left; z-index: 1; position: relative;}
+.introduce h1{font-size: 22px;
+    margin-top: 40px;
+    margin-left: 10px;
+    float: left;
+}
+.introduce span{float: left;
+    font-size: 10px;
+    margin-top: 50px;
+margin-left: 20px;
+    color: #6E6E6E;
+}
+.introduce p{width: 448px; text-indent:2em; font-size: 12px;}
+.just-bg{width:1000px;height:100px;background-color:#313131; border-radius: 8px;position: absolute;z-index: 0;
+    top: 85px;
+    left: 40px;}
+.line{width:1000px;border: 2px solid #5A5A5A;margin-left: 100px;}
+ul.more{margin: 80px 0 0 80px;}
+ul.more li {width: 1000px;height:100px;margin: 10px 0;position: relative}
+ul.more li div:not(:last-child){float: left;margin-right: 40px;z-index: 1;position: relative}
+ul.more li div>img{width:80px;
+    height: 80px;}
+ul.more li div span{color: #6E6E6E;}
+ul.more li div h2{font-size: 20px;}
+.introduce-more {margin-top: 20px;}
+.just-bg1{width:1000px;height:60px;background-color:#313131; border-radius: 8px;position: absolute;z-index: 0;
+    top: 20px;
+    left: 10px;}
+.load-more{text-align: center;margin-bottom: 20px;color: #8D8D8D}
