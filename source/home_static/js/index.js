@@ -10,13 +10,13 @@ $(window).ready(function(){
             if(i<4){
 
                 $("#banner_img").empty();
-                $('#banner_img').append('<img src="/home_static/images/banner'+i+'.jpg" alt=""/>');
+                $('#banner_img').append('<img src="./home_static/images/banner'+i+'.jpg" alt=""/>');
                 $(li[i]).addClass("icon_active");
                 $(li[i]).siblings().removeClass();
                 i++;
 
             }else{$("#banner_img").empty();
-                $('#banner_img').append('<img src="/home_static/images/banner0.jpg" alt=""/>');
+                $('#banner_img').append('<img src="./home_static/images/banner0.jpg" alt=""/>');
                 $(li[0]).addClass("icon_active");
                 $(li[0]).siblings().removeClass();
                 i=1;
@@ -27,19 +27,19 @@ $(window).ready(function(){
              clearInterval(t);
            i= $(this).index();
             $("#banner_img").empty();
-            $('#banner_img').append('<img src="/home_static/images/banner'+i+'.jpg" alt=""/>');
+            $('#banner_img').append('<img src="./home_static/images/banner'+i+'.jpg" alt=""/>');
             $(li[i]).addClass("icon_active");
             $(li[i]).siblings().removeClass();
             i++;
      });
         $(".banner_icon li").on("mouseout",function(){
-            t=setInterval(lunbo,1500);
+            t=setInterval(lunbo,3000);
         });
     $("#banner_img").on("mouseover",function() {
         clearInterval(t);
     });
         $("#banner_img").on("mouseout",function() {
-            t=setInterval(lunbo,2000);
+            t=setInterval(lunbo,3000);
         });
 
 
