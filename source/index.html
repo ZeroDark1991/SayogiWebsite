@@ -3,9 +3,9 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>洗游记首页</title>
-    <link rel="stylesheet" href="css/common.css"/>
-    <link rel="stylesheet" href="css/layout.css"/>
-    <link rel="stylesheet" href="css/welcome.css"/>
+    <link rel="stylesheet" href="home_static/css/common.css"/>
+    <link rel="stylesheet" href="home_static/css/layout.css"/>
+    <link rel="stylesheet" href="home_static/css/welcome.css"/>
 </head>
 <body class="welcome">
     <!--<div class="header">-->
@@ -27,7 +27,7 @@
 
                             <p class="input"><input class="color" type="text" placeholder="手机号"/></p>
 
-                            <p class="input"><input class="value" type="button" value="发送验证码"/></p>
+                            <p class="input"><input class="value" type="button" value="发送验证码" onclick="sendCode()"/></p>
 
                             <p class="input"><input class="color" type="text" placeholder="验证码"/></p>
 
@@ -35,18 +35,18 @@
                         </div>
                         <ul>
                             <li class="active"><a href="index.html">首页</a></li>
-                            <li><a href="news.html">洗游记动态</a></li>
-                            <li><a href="recruit.html">人才招聘</a></li>
+                            <li><a href="home_static/news.html">洗游记动态</a></li>
+                            <li><a href="home_static/recruit.html">人才招聘</a></li>
                             <li><a>加入我们</a></li>
-                            <li><a href="service.html">服务项目</a></li>
+                            <li><a href="home_static/service.html">服务项目</a></li>
                             <li><a>门店地图</a></li>
-                            <li><a href="cooperation.html">合作机构</a></li>
+                            <li><a href="home_static/cooperation.html">合作机构</a></li>
                         </ul>
                     </div>
                     <!--轮播-->
                    <div class="banner">
                         <div class="banner_img" id="banner_img">
-                            <img src="images/banner0.jpg" alt=""/>
+                            <img src="home_static/images/banner0.jpg" alt=""/>
                             <!--<img src="images/banner1.jpg" alt=""/>-->
                             <!--<img src="images/banner2.jpg" alt=""/>-->
                             <!--<img src="images/banner3.jpg" alt=""/>-->
@@ -99,7 +99,7 @@
         </div>
         <div class="foot clear">
             <div class="share">
-                <img src="images/weixin.png" alt=""/><img src="images/QQ.png" alt=""/><img src="images/weibo.png" alt=""/>
+                <img src="home_static/images/weixin.png" alt=""/><img src="home_static/images/QQ.png" alt=""/><img src="home_static/images/weibo.png" alt=""/>
             </div>
             <div >
                 <p>400-169-2628</p>
@@ -113,7 +113,8 @@
 
     <!--</div>-->
 </body>
-<script src="js/jquery-1.8.3.min.js"></script>
-<script src="js/index.js"></script>
+<script src="home_static/js/jquery-1.8.3.min.js"></script>
+<script src="home_static/js/common.js"></script>
+<script src="home_static/js/index.js"></script>
 <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=6a98623f951a011fb908b05444c237d6"></script>
 </html>
