@@ -1,0 +1,61 @@
+.content{
+    width:1200px;
+    min-height:1000px;
+    background-color: #3B3B3B;
+    margin-left: 140px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 2;
+    /*box-shadow:-2px 0 0 #424242 ;*/
+}
+.main{
+    margin:40px 0 0 60px;
+    position: relative;
+}
+.main h2{
+    font-size: 18px;
+}
+.main h2 p{font-size: 14px;}
+.recruit{
+    margin:80px;
+}
+.recruit ul{float: left}
+.recruit>div{float: left}
+.recruit ul li{width:100px;margin-bottom: 50px;position: relative;z-index: 1;}
+.recruit ul li>div{margin: 0 auto;
+    width: 80px ;height: 80px;border: 2px solid #ffffff;border-radius: 50px;}
+.recruit ul li p{text-align: center;margin-top: 20px;}
+.xihu{ background: url('../images/xihu.png') center no-repeat;  }
+.xihu.active{background: url('../images/xihu-active.png') center no-repeat;}
+.xihu:hover{background: url('../images/xihu-active.png') center no-repeat;cursor: pointer;}
+.meirong{ background: url('../images/meirong.png') center no-repeat;  }
+.meirong.active{background: url('../images/meirong-active.png') center no-repeat;}
+.meirong:hover{background: url('../images/meirong-active.png') center no-repeat;cursor: pointer;}
+.weixiu{ background: url('../images/weixiu.png') center no-repeat;  }
+.weixiu.active{background: url('../images/weixiu-active.png') center no-repeat;}
+.weixiu:hover{background: url('../images/weixiu-active.png') center no-repeat;cursor: pointer;}
+.qita{ background: url('../images/qita.png') center no-repeat;  }
+.qita.active{background: url('../images/qita-active.png') center no-repeat;}
+.qita:hover{background: url('../images/qita-active.png') center no-repeat;cursor: pointer;}
+
+.service-content{background: url('../images/service-bg.png') no-repeat;width:1059px;height: 700px;margin-top: -750px;
+    background-size: cover;
+    /*margin-left: -80px;*/
+    position: relative;
+    z-index: 0;
+    padding-top: 150px;
+}
+.service-content div{text-align: center;margin-left: 250px;clear: both;font-size: 10px;}
+
+.service-content div span,.service-content div p{float: left;}
+.service-content div span{color:#D56700;}
+.service-content div span>b{display:inline-block;width:10px;height: 10px;
+    border-radius: 5px;background-color: #D56700;margin-right: 10px;
+}
+.service-content div p{width: 450px;margin-bottom: 30px;}
+.button{width:120px;height:40px;line-height: 40px;text-align: center;margin: 0 auto;background-color: #14C5A9;color: #fff;
+border-radius: 8px;}
+.button:hover{background-color: #12B49D;cursor: pointer;}
